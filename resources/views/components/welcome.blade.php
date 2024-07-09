@@ -5,7 +5,7 @@
         Welcome to your Jetstream application! This was pushed from GitHub!!!!
     </h1>
 
-    <p class="mt-6 text-gray-500 leading-relaxed">
+    <p class="mt-6 text-gray-500 leading-regit alaxed">
         Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
         to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
         you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
