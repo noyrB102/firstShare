@@ -185,7 +185,7 @@
                                             @if ($content->image)
                                                 <img class="object-cover rounded-md max-h-96 w-auto"
                                                     xclass="xrelative xaspect-[16/9] xsm:aspect-[2/1] xlg:aspect-square xw-24 xw-44 w-56 h-72 xrounded-lg xlg:h-auto xlg:w-56 xlg:shrink-0"
-                                                    src="{{ asset($content->image) }}" alt="">
+                                                    src="{{ asset('storage/'.$content->image) }}" alt="">
                                             @endif
                                             <div class="mt-3 text-sm font-medium text-gray-900 break-all">
                                                 {{ $content->content }}</div>
