@@ -137,7 +137,7 @@
                                             src="{{ asset('project_images/user1.png') }}" alt="">
                                     @else
                                         <img class="h-8 w-8 rounded-full object-cover"
-                                            src="{{ $content->user->profile_photo_path }}" alt="">
+                                            src="{{ 'storage/'.$content->user->profile_photo_path }}" alt="">
                                     @endif
                                     <div class="block">
                                         <h3 class="text-base font-semibold leading-6 text-gray-900">
