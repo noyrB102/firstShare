@@ -119,8 +119,12 @@
                                 </div>
                             </div>
                         </form>
-                        <span x-text="maxLength +  ' characters remaining'"
-                            class="px-2 text-sm text-gray-500 float-right"></span>
+                       <div class="flex justify-between">
+                        <span
+                        class="px-2 text-sm text-gray-500 float-right">File types:jpg,jpeg,webb,png, gif</span>
+                    <span x-text="maxLength +  ' characters remaining'"
+                        class="px-2 text-sm text-gray-500 float-right"></span>
+                       </div>
                     </div>
                 @endauth
 
